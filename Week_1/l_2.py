@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def main():
+
     fb = pd.read_csv('../Data/facebook.csv', index_col = 0)
     print(fb.head(2),'\n')
     # Разница цены между двумя днями
